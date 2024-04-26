@@ -1,0 +1,9 @@
+@import '../../styles/variables.scss';
+
+.sidebar {
+  padding: 24px;
+  width: 280px;
+  height: auto;
+  min-height: inherit;
+  background: $purple-100;
+}
