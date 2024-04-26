@@ -1,10 +1,14 @@
-import { Routes, Route } from 'react-router-dom';
-import './App.css';
-import '@mantine/core/styles.css';
-import { MantineProvider } from '@mantine/core';
+import styles from './App.module.scss';
+import Sidebar from './components/sidebar/Sidebar';
+import Content from './components/content/Content';
 
-function App() {
-  return <MantineProvider>{}</MantineProvider>;
-}
+const App = () => {
+  return (
+    <div className={styles.container}>
+      <Sidebar />
+      <Content />
+    </div>
+  );
+};
 
 export default App;
