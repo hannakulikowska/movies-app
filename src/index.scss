@@ -1,0 +1,12 @@
+@import './styles/variables.scss';
+
+body {
+  background-color: $grey-100;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  min-height: 100dvh;
+}
